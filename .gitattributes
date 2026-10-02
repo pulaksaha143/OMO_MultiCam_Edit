@@ -1,0 +1,7 @@
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.dra filter=lfs diff=lfs merge=lfs -text
+MediaFiles/** filter=lfs diff=lfs merge=lfs -text
+Cache/** filter=lfs diff=lfs merge=lfs -text
+*.WAV filter=lfs diff=lfs merge=lfs -text
+*.dvcc filter=lfs diff=lfs merge=lfs -text
